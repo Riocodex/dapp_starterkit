@@ -35,3 +35,26 @@ npm run start
 ```bash
 npx hardhat run src/backend/scripts/deploy.js --network (anynetwork you want)
 ```
+
+- to deploy scripts just save the smart contract address and put it in the save front end files function, the major advantage of this app is you can run and deploy your smartcontract several times without having to change the address manually, the scripts do that for you, cool right?
+
+```bash
+ // deploy contracts here:
+  const NFT = await ethers.getContractFactory("NFT");
+  const nft = await NFT.deploy();
+
+ 
+
+  console.log("NFT contract address", nft.address)
+ 
+
+  
+  // For each contract, pass the deployed contract and name to this function to save a copy of the contract ABI and address to the front end.
+  saveFrontendFiles(nft, "NFT");
+```
+an example of what you should do
+
+- then go to the frontend and connect your backend to the front end
+
+I hope you all enjoy this template, dont forget to leave a star!
+
