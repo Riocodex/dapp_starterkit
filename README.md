@@ -16,3 +16,8 @@ git clone https://github.com/Riocodex/dapp_starterkit.git newDappApplication
 ```bash
 cd newDappApplication
 ```
+- install dependencies and tools 
+```bash
+npm i 
+```
+- 
