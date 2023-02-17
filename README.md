@@ -29,4 +29,9 @@ npm run start
 
 - in the directory, the src folder contains frontend and backend, the backend is based mostly on solidity, its where you create smart contracts, run test and deploy scripts
 
-- to create a contract create a folder named contracts, to create a script create a folder called script, to create test create a folder called test and run each with hardhat command lines in the terminal
+- to create a contract create a folder named contracts, to create a script create a folder called script, to create test create a folder called test and run each with [`hardhat`](https://hardhat.org/) command lines in the terminal
+
+- to deploy smart contracts to the block chain run
+```bash
+npx hardhat run src/backend/scripts/deploy.js --network (anynetwork you want)
+```
