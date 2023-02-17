@@ -20,4 +20,7 @@ cd newDappApplication
 ```bash
 npm i 
 ```
-- 
+- open up the server 
+```bash
+npm run start
+```
