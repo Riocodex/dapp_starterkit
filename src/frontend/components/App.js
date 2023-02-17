@@ -28,7 +28,7 @@ function App() {
               </a>
               <h1 className= "mt-5">RioCodeX's Starter Kit</h1>
               <p>
-           This is a template to speed up building process of decentralized applications. If you'd like to know how its used click the link below
+           This is a template to speed up building process of decentralized applications.<br/> If you'd like to know how its used click the link below dont forget to leave a star!
               </p>
               <a
                 className="App-link"
