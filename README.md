@@ -24,3 +24,9 @@ npm i
 ```bash
 npm run start
 ```
+
+- open up another cmd or terminal and open up the code to the directory with code .
+
+- in the directory, the src folder contains frontend and backend, the backend is based mostly on solidity, its where you create smart contracts, run test and deploy scripts
+
+- to create a contract create a folder named contracts, to create a script create a folder called script, to create test create a folder called test and run each with hardhat command lines in the terminal
