@@ -20,15 +20,15 @@ function App() {
           <main role="main" className="col-lg-12 d-flex text-center">
             <div className="content mx-auto mt-5">
               <a
-                href="http://www.dappuniversity.com/bootcamp"
+                href="https://riocodex.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={logo} className="App-logo" alt="logo"/>
               </a>
-              <h1 className= "mt-5">Dapp University Starter Kit</h1>
+              <h1 className= "mt-5">RioCodeX's Starter Kit</h1>
               <p>
-                Edit <code>src/frontend/components/App.js</code> and save to reload.
+           This is a template to speed up building process of decentralized applications. If you'd like to know how its used click the link below
               </p>
               <a
                 className="App-link"
